@@ -1,0 +1,112 @@
+body{
+    color:rgb(255, 240, 221);
+    background-color: #454545;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+hr{
+    color: rgb(93, 134, 136);
+    background-color: rgb(93, 134, 136);
+    height: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header{
+    display: flex;
+    border-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top-width: 0px;
+    background-color: #1a1919;
+    border-radius: 0% 0% 10% 10%;
+}
+.Left, .right{
+    background-color: #242424;
+    border-radius: 5%;
+}
+H1{
+    color:cadetblue;
+    text-decoration: underline double;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-top: 0%;
+}
+h3{
+    color: cadetblue;
+}
+h4{
+    color:darkcyan;
+    margin-bottom: 1%;
+}
+#Nomformation{
+    color: rgb(114, 172, 199);
+    font-style: italic;
+}
+#date{
+    color:rgb(169, 188, 197)
+}
+#Nomsociete{
+    color: rgb(114, 172, 199)
+}
+h5{
+    color:rgb(55, 118, 120);
+    font-style: oblique 20deg;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+.Left{
+    flex: 1;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.right{
+    flex: 1;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 30px
+}
+figure{
+    position: relative;
+    left: 25%;
+    border-color: #242424;
+}
+img{
+    max-width: 500px;  
+}
+ul{
+    list-style-type: none;
+}
+ul li.alpha::before{
+    content:"-";
+    color: cadetblue;
+    margin-left: -1em; 
+    margin-right: 0.5em;
+}
+.beta::before{
+    content:"•";
+    color: cadetblue;
+    margin-top: 0px;
+    margin-left: -1em; 
+    margin-right: 0.5em;
+    font-size: 100%;
+}
+#map{
+    font-style: italic;
+    color: rgb(61, 162, 165);
+}
+.Linkedin{
+    flex: 1;
+    left: 290%;
+    top: 5%;
+}
+.lk{
+    flex: 1;
+    max-width: 200px;
+}
