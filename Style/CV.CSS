@@ -74,11 +74,11 @@ div{
 }
 figure{
     position: relative;
-    left: 25%;
+    left: 15%;
     border-color: #242424;
 }
 img{
-    max-width: 500px;  
+    max-width: 400px;  
 }
 ul{
     list-style-type: none;
@@ -103,7 +103,7 @@ ul li.alpha::before{
 }
 .Linkedin{
     flex: 1;
-    left: 90%;
+    left: 190%;
     top: 5%;
 }
 .lk{
