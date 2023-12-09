@@ -1,112 +1,45 @@
 body{
-    color:rgb(255, 240, 221);
-    background-color: #454545;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #212529;
+    color:rgb(255, 248, 240);
 }
-hr{
-    color: rgb(93, 134, 136);
-    background-color: rgb(93, 134, 136);
-    height: 20px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+.photo{
+    max-width: 170px;
 }
-header{
-    display: flex;
-    border-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    margin-top: 0px;
-    padding-top: 0px;
-    border-top-width: 0px;
-    background-color: #1a1919;
-    border-radius: 0% 0% 10% 10%;
+.num{
+    display: inline-block;
 }
-.Left, .right{
-    background-color: #242424;
-    border-radius: 5%;
+.pin{
+    max-width: 40px;
 }
-H1{
-    color:cadetblue;
-    text-decoration: underline double;
-    font-size: 50px;
-    margin-bottom: 5px;
-    margin-top: 0%;
+.tel{
+    margin-bottom: 25px;
 }
-h3{
-    color: cadetblue;
+.pon{
+    max-width: 60px;
 }
-h4{
-    color:darkcyan;
-    margin-bottom: 1%;
+.mail{
+    margin-right: 20px;    
 }
-#Nomformation{
-    color: rgb(114, 172, 199);
-    font-style: italic;
+.icoA{
+    width: 50px;
 }
-#date{
-    color:rgb(169, 188, 197)
+.icoB{
+    max-width: 80px;
+    left: 50px;
 }
-#Nomsociete{
-    color: rgb(114, 172, 199)
+.blue{
+    background-color: #189498;
 }
-h5{
-    color:rgb(55, 118, 120);
-    font-style: oblique 20deg;
+.fontForWhite{
+    color:#189498
 }
-div{
-    display: flex;
-    justify-content: space-between;
+h5.fontForWhite{
+    font-weight: lighter;
 }
-.Left{
-    flex: 1;
-    padding-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 30px;
+.map{
+    color: rgb(255, 248, 240);
 }
-.right{
-    flex: 1;
-    padding-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 30px
-}
-figure{
-    position: relative;
-    left: 15%;
-    border-color: #242424;
-}
-img{
-    max-width: 400px;  
-}
-ul{
-    list-style-type: none;
-}
-ul li.alpha::before{
-    content:"-";
-    color: cadetblue;
-    margin-left: -1em; 
-    margin-right: 0.5em;
-}
-.beta::before{
-    content:"•";
-    color: cadetblue;
-    margin-top: 0px;
-    margin-left: -1em; 
-    margin-right: 0.5em;
-    font-size: 100%;
-}
-#map{
-    font-style: italic;
-    color: rgb(61, 162, 165);
-}
-.Linkedin{
-    flex: 1;
-    left: 190%;
-    top: 5%;
-}
-.lk{
-    flex: 1;
-    max-width: 200px;
+.exp{
+    padding-left: 5%;
 }
